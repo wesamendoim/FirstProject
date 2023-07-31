@@ -42,6 +42,25 @@ ano_atual = 2023
 idade = int(ano_atual) - int(ano_nascimento)
 print('Wesley a sua idade é: ' + str(idade))
 
-
 '''
+'''
+Aula 18 
+27/07/2023
+fruta = 'Laranja'
+#print(fruta[2:6])
+print(fruta[2:])
+'''
+
+nome = 'Wesley'
+sobrenome = 'Valadao'
+profissao = 'Programador' 
+
+#Wesley é um excelete [Programador]
+
+text = 'O ' + nome + ' ' + sobrenome + ' e um excelente ' + '[' + profissao + ']'
+print(text)
+
+
+
+
 
