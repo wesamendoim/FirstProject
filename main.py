@@ -66,7 +66,9 @@ print(text)
 text2 = f'O {nome} {sobrenome} e um excelente [{profissao}]'
 print(text2)
 '''
-
+'''
+AULA 20 
+31/07/2023
 mensagem = 'O Péle sempre sera Rei do Futebol'
 #print(mensagem.upper())
 #print(mensagem.lower())
@@ -75,5 +77,23 @@ mensagem = 'O Péle sempre sera Rei do Futebol'
 #print(mensagem.replace('R', 'r'))
 #print(mensagem.replace('Péle', 'Ronaldo'))
 #print(mensagem.strip())
+'''
+
+'''
+Aula 21 
+Operadores de comparação 
+31/07/2023
+operadores = 10 == 10 
+
+print(operadores)
+
+#==Equal 
+#!=Not equal 
+#> Greater than
+#<Less then
+#>=Greater than or equal too 
+#<=Less than or equal to 
+'''
+
 
 
