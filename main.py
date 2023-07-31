@@ -51,6 +51,9 @@ fruta = 'Laranja'
 print(fruta[2:])
 '''
 
+'''
+Aula 19
+31/07/2027
 nome = 'Wesley'
 sobrenome = 'Valadao'
 profissao = 'Programador' 
@@ -62,6 +65,15 @@ print(text)
 
 text2 = f'O {nome} {sobrenome} e um excelente [{profissao}]'
 print(text2)
+'''
 
+mensagem = 'O Péle sempre sera Rei do Futebol'
+#print(mensagem.upper())
+#print(mensagem.lower())
+#print(mensagem.capitalize())
+#print(mensagem.find('Rei'))
+#print(mensagem.replace('R', 'r'))
+#print(mensagem.replace('Péle', 'Ronaldo'))
+#print(mensagem.strip())
 
 
