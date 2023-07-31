@@ -60,7 +60,8 @@ profissao = 'Programador'
 text = 'O ' + nome + ' ' + sobrenome + ' e um excelente ' + '[' + profissao + ']'
 print(text)
 
-
+text2 = f'O {nome} {sobrenome} e um excelente [{profissao}]'
+print(text2)
 
 
 
