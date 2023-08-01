@@ -96,4 +96,16 @@ print(operadores)
 '''
 
 
+'''
+Aula de Operadores de COmparação IF/ELSE 
+'''
 
+velocidade = 40
+
+if velocidade > 110:
+   print('Acima da velocidade permitida')
+   print('Favor reduzir a sua velocidade para 100KM')
+elif velocidade < 60: 
+  print('Favor dirigir mais rapido')
+else:
+  print('Velocidade OK')
