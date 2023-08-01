@@ -139,3 +139,15 @@ if 20 <= valor < 40:
 else:
   print('Valor abaixo ou acima do intervalo permitido')
 '''
+
+'''
+Aula 27 For Loop para Numeros
+01/08/2027
+#imprimir de 1 a 5 
+
+for numero in range(1,20,2):
+  print(numero)
+'''
+
+  
+
