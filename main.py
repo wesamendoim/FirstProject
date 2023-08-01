@@ -112,6 +112,30 @@ else:
 '''
 Aula de Operadores Logicos 
 01/08/2023
-'''
 
 renda_principal = True
+nome_limpo = True
+
+if renda_principal or nome_limpo: 
+  print('Financiamento aprovado !')
+else:
+  print('Financiamento negado !')
+'''
+
+'''
+Aula 26 Operadores Multiplos 
+01/08/2023
+
+valor = 19
+
+#Condicaçao Comum
+#if valor >=20 and valor <= 40:
+
+#Condição Melhorada 
+#if 20 <= valor < 40:
+
+if 20 <= valor < 40:
+  print('Produto contabilizado')
+else:
+  print('Valor abaixo ou acima do intervalo permitido')
+'''
