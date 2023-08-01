@@ -149,5 +149,16 @@ for numero in range(1,20,2):
   print(numero)
 '''
 
+'''
+Aula 28 For Loops para Strings 
+01/08/2023
+
+palavra = 'Ronaldo'
+
+for letra in palavra:
+  #print(letra)
+  print(f' {letra} esta dentro da palavra {palavra}')
+'''
+
   
 
