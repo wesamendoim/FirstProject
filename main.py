@@ -175,3 +175,13 @@ else:
   print('Falha na compra')
 
 '''
+
+'''
+Aula 30 - Nested Loops
+02/08/2023
+for numero in range(1,6):
+  print('Produto' + str(numero))
+  for numero1 in range(11):
+    print(numero,numero1)
+'''
+
