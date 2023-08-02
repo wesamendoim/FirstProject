@@ -185,3 +185,26 @@ for numero in range(1,6):
     print(numero,numero1)
 '''
 
+'''
+AULA 31 - LOOPING COM STRINGS 
+03/08/2023
+palavra = 'FANTASTICO'
+
+for space in palavra:
+  print(f' {space}',end='')
+'''
+
+'''
+AULA 32 - Criando um retangulo 
+03/08/2023
+
+linhas = 6
+colunas = 6
+simbolos = '@'
+
+for l in range(linhas):
+  for c in range(colunas):
+    print(simbolos,end='')
+  print()
+'''
+
