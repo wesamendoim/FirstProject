@@ -160,5 +160,18 @@ for letra in palavra:
   print(f' {letra} esta dentro da palavra {palavra}')
 '''
 
-  
+'''
+Aula 29 - Utilizando IF E ELSE 
+02/08/2023
+ompra_confirmada = True
+dados_compra = "Compra no valor de R$ 5.00..."
 
+for enviar in range(3):
+  if compra_confirmada:
+    print(dados_compra)
+    print('Detalhes enviados para o seu email...')
+    break
+else:
+  print('Falha na compra')
+
+'''
