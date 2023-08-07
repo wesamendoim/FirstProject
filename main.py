@@ -250,3 +250,15 @@ while valor > 20:
   print(f'O valor final do produto será de R$ {valor}')
   break
 '''
+
+'''
+AULA 39 - FUNCOES 
+07/08/2023
+
+def boas_vindas():
+  print('Ola Wesley')
+
+boas_vindas()
+'''
+
+
