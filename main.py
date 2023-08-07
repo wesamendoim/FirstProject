@@ -221,7 +221,20 @@ while valor > 20:
 '''
 
 '''
-Aula 34 - Operador ternario
+Aula 34 - Operador ternário
+07/08/2023
+
+idade = 16 
+
+if idade >= 16:
+  print('Voto permitido')
+else:
+  print('Voto nao permitido')
+
+idade = 13
+
+#IF IN LINE 
+resultado = 'Voto Permitido' if idade >= 16 else 'Voto nao permitido'
+print(resultado)
 
 '''
-
