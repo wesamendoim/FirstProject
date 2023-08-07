@@ -211,7 +211,6 @@ for l in range(linhas):
 '''
 AULA 33 - While Loop
 03/08/2023
-'''
 
 valor = 100
 dia = 0
@@ -219,3 +218,10 @@ while valor > 20:
   dia += 1
   print(f'No dia {dia} o produto vai ser vendido por R$ {valor}')
   valor-= 5
+'''
+
+'''
+Aula 34 - Operador ternario
+
+'''
+
