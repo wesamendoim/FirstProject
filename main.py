@@ -261,4 +261,39 @@ def boas_vindas():
 boas_vindas()
 '''
 
+'''
+AULA 40 - FUNCOES COM OPERACOES MATEMATICAS
+07/08/2023
 
+def somar_dois_numeros():
+  numero1 = 10
+  numero2 = 5 
+  resultado = numero1 + numero2
+  print(resultado)
+
+#Chamando a função
+somar_dois_numeros()
+'''
+
+'''
+def boas_vindas_Wesley():
+  print('Ola Wesley')
+
+def boas_vindas_Ronaldo():
+  print('Ola Ronaldo')
+
+def boas_vindas_Pele():
+  print('Ola Pele')
+
+boas_vindas_Wesley()
+boas_vindas_Ronaldo()
+boas_vindas_Pele()
+'''
+
+
+def boas_vindas(nome):
+  print(f' Ola {nome}')
+
+boas_vindas('Wesley')
+boas_vindas('Pele')
+boas_vindas('Ronaldo')
