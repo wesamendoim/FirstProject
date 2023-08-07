@@ -242,4 +242,11 @@ print(resultado)
 '''
 AULA 36 - Criando condições com While Loop 
 07/08/2023 
+
+valor = int(input('Digite o valor desejado: '))
+
+while valor > 20:
+  valor = (valor * 0.10) + valor
+  print(f'O valor final do produto será de R$ {valor}')
+  break
 '''
