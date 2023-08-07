@@ -236,5 +236,10 @@ idade = 13
 #IF IN LINE 
 resultado = 'Voto Permitido' if idade >= 16 else 'Voto nao permitido'
 print(resultado)
+'''
 
+
+'''
+AULA 36 - Criando condições com While Loop 
+07/08/2023 
 '''
