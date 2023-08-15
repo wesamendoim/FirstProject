@@ -305,7 +305,8 @@ boas_vindas('Basquete')
 '''
 
 '''
-
+AULA 44 
+11/08/2023
 def cliente1(nome):
   print(f'Ola {nome}')
 
@@ -318,4 +319,46 @@ y = cliente2('Wesley')
 print(y)
 print(x)
 
+def soma(*numeros):
+  result = 0
+  for num in numeros:
+    result += num
+  return result
+
+
+x = soma(2,3,4,8,6,10)
+
+print(x)
+'''
+
+'''
+AULA 45 
+11/08/2023
+
+def agencia(**carro):
+  match carro:
+    case marca:
+      marcaCarro = marca
+      return marcaCarro
+    case cor:
+      corCarro = cor
+      return corCarro
+    case motor:
+      motorCarro = motor
+      return motorCarro
+    case placa:
+      placaCarro = placa
+      return placaCarro
+  return carro
+
+  def agencia(**carro):
+  return carro
+
+print(agencia(marca='Gol',cor='Azul',motor=1.0, placa='EUS1456'))
+print(agencia(marca='Renault',cor='Vermelho',motor=1.0, placa='BUA1456'))
+'''
+
+'''
+AULA 45 - Importando Modulos
+11/08/2023
 '''
