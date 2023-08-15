@@ -290,10 +290,17 @@ boas_vindas_Ronaldo()
 boas_vindas_Pele()
 '''
 
+'''
+AULA 42 - Funçoes recebendo parametros 
+11/08/2023
+#ARGUMENTO DEFALUT: nome='Pedro
+#ARGUMENTO NON-DEFAULT: esporte
 
-def boas_vindas(nome):
+def boas_vindas(esporte,nome='Pedro'):
   print(f' Ola {nome}')
+  print(f' Ele pratica o esporte {esporte}')
 
-boas_vindas('Wesley')
-boas_vindas('Pele')
-boas_vindas('Ronaldo')
+boas_vindas('Basquete')
+
+'''
+
