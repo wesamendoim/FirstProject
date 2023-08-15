@@ -361,4 +361,14 @@ print(agencia(marca='Renault',cor='Vermelho',motor=1.0, placa='BUA1456'))
 '''
 AULA 45 - Importando Modulos
 11/08/2023
+#Numero Fatorial 4 
+import math
+
+print(math.factorial(40))
+
+fatorial = 4 * 3 * 2 * 1
+print(fatorial)
 '''
+
+
+
