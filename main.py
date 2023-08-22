@@ -374,8 +374,16 @@ print(fatorial)
 '''
 22/08/2023
 LISTAS
-'''
 
-cidades = ['RJ','SP','BA']
+cidades = ['RJ','SP','BA','GO']
+
+#cidades.append('SC')
+#cidades.remove('BA')
+#cidades.insert(1,'SC')
+#cidades.pop(0)
+
+cidades.sort()
 
 print(cidades)
+'''
+
