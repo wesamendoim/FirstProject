@@ -371,4 +371,11 @@ print(fatorial)
 '''
 
 
+'''
+22/08/2023
+LISTAS
+'''
 
+cidades = ['RJ','SP','BA']
+
+print(cidades)
