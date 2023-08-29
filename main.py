@@ -387,3 +387,35 @@ cidades.sort()
 print(cidades)
 '''
 
+
+'''
+22/08/2023
+CONCATENANDO LISTAS
+
+#numeros = [2,3,4,5]
+#letras = ['a','b','d','c']
+
+#final = numeros + letras
+#numeros.extend(letras)
+#print(numeros)
+
+
+itens = [['item1','item2'],['item3','item4']]
+
+print(itens[1][1])
+'''
+
+'''
+29/08/2023
+AULA 52 - Loopings em listas
+valores = [50,80,90,100,120]
+
+for x in valores:
+  print(f'o valor final do produto é de R$ {x}')
+'''
+
+
+'''
+29/08/2023
+AULA 53 - Verificando itens de uma lista 
+'''
