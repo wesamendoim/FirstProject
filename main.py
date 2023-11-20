@@ -401,7 +401,8 @@ print(frutas_lista)
 '''
 '''
 AULA 57 - Tuples
-'''
+
+OBS: TUPLE NAO PODE SER ALTERADA 
 
 cores_lista = ['amarelo', 'vermelho', 'azul', 'verde']
 cores_tuple = ('amarelo', 'vermelho', 'azul', 'verde')
@@ -411,5 +412,4 @@ cores_tuple = ('amarelo', 'vermelho', 'azul', 'verde')
 #duas_listas = cores_tuple * 2 
 #print(duas_listas)
 
-
-
+'''
