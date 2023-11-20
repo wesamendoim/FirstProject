@@ -411,5 +411,27 @@ cores_tuple = ('amarelo', 'vermelho', 'azul', 'verde')
 #print(type(cores_tuple))
 #duas_listas = cores_tuple * 2 
 #print(duas_listas)
+'''
+'''
+AULA 58 - ARRAYS
+
+from array import array
+
+letras = ['a', 'b', 'c', 'd']
+numeros_int = [10, 20, 30, 40]
+numeros_float = [1.2, 1.3, 1.4, 1.5]
+
+print(letras)
+print(numeros_int)
+print(numeros_float)
+print()
+
+letras = array('u', ['a', 'b', 'c', 'd'])
+numeros_int = array('i', [10, 20, 30, 40])
+numeros_float = array('f', [1.2, 1.3, 1.4, 1.5] )
+
+print(letras)
+print(numeros_int)
+print(numeros_float)
 
 '''
