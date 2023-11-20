@@ -436,7 +436,7 @@ print(numeros_float)
 '''
 '''
 AULA 60 - SETS
-
+EVITAR ITENS DUPLICADOS
 list_1 = [10, 20, 30, 40, 50]
 list_2 = [10, 20, 60, 70]
 
@@ -450,4 +450,15 @@ print(num_1 & num_2)  #And
 
 print(len(num_1))
 '''
+'''
+AULA 61 - FUNCOES DO SETS
 
+#list_1 = [10, 20, 30, 40, 50]
+s_1 = {10, 20, 30, 40, 50}
+
+#s_1.add(20)
+#s_1.update({60,70,80}) SEMPRE DENTRO DE CHAVES, PORQUE SEMPRE TEM DE SER LISTA
+#s_1.remove(10)
+s_1.discard(20)
+print(s_1)
+'''
