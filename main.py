@@ -433,5 +433,21 @@ numeros_float = array('f', [1.2, 1.3, 1.4, 1.5] )
 print(letras)
 print(numeros_int)
 print(numeros_float)
-
 '''
+'''
+AULA 60 - SETS
+
+list_1 = [10, 20, 30, 40, 50]
+list_2 = [10, 20, 60, 70]
+
+num_1 = set(list_1)
+num_2 = set(list_2)
+
+print(num_1 | num_2)  #Union
+print(num_1 - num_2)  #Differece
+print(num_1 ^ num_2)  #Symmetric Difference
+print(num_1 & num_2)  #And
+
+print(len(num_1))
+'''
+
