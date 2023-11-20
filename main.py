@@ -1,4 +1,3 @@
-
 '''
 Nome: Wesley Valadão
 Data: 26/07/2023
@@ -8,7 +7,7 @@ Versao 1.0
 Meu primeiro codigo 
 print("Wesley é o meu nome")
 print("Teste")
-''' 
+'''
 '''
 Meu segundo codigo 
 Aula Variáveis
@@ -17,12 +16,10 @@ print(x + x)
 print(x + x)
 print(x + x)
 '''
-
 '''
 AULA DE FRASES 
 O Wesley tem 29 anos de idade e mora em São Paulo 
 '''
-
 '''
 AULA DE INTERAÇÃO COM O PROGRAMA USANDO INPUT
 nome = input('Qual o seu nome: ')
@@ -31,7 +28,6 @@ cidade = input('Qual a sua cidade: ')
 idade = str(idade)
 print('O ' + nome + ' tem ' + idade + ' anos de idade e mora em ' + cidade)
 '''
-
 '''
 AULA DE CALCULAR A DATA ATRAVES DO ANO QUE NASCEU
 Data: 27/07/2023
@@ -50,7 +46,6 @@ fruta = 'Laranja'
 #print(fruta[2:6])
 print(fruta[2:])
 '''
-
 '''
 Aula 19
 31/07/2027
@@ -78,7 +73,6 @@ mensagem = 'O Péle sempre sera Rei do Futebol'
 #print(mensagem.replace('Péle', 'Ronaldo'))
 #print(mensagem.strip())
 '''
-
 '''
 Aula 21 
 Operadores de comparação 
@@ -94,8 +88,6 @@ print(operadores)
 #>=Greater than or equal too 
 #<=Less than or equal to 
 '''
-
-
 '''
 Aula de Operadores de COmparação IF/ELSE 
 01/08/2023
@@ -108,7 +100,6 @@ elif velocidade < 60:
 else:
   print('Velocidade OK')
 '''
-
 '''
 Aula de Operadores Logicos 
 01/08/2023
@@ -121,7 +112,6 @@ if renda_principal or nome_limpo:
 else:
   print('Financiamento negado !')
 '''
-
 '''
 Aula 26 Operadores Multiplos 
 01/08/2023
@@ -139,7 +129,6 @@ if 20 <= valor < 40:
 else:
   print('Valor abaixo ou acima do intervalo permitido')
 '''
-
 '''
 Aula 27 For Loop para Numeros
 01/08/2027
@@ -148,7 +137,6 @@ Aula 27 For Loop para Numeros
 for numero in range(1,20,2):
   print(numero)
 '''
-
 '''
 Aula 28 For Loops para Strings 
 01/08/2023
@@ -159,7 +147,6 @@ for letra in palavra:
   #print(letra)
   print(f' {letra} esta dentro da palavra {palavra}')
 '''
-
 '''
 Aula 29 - Utilizando IF E ELSE 
 02/08/2023
@@ -175,7 +162,6 @@ else:
   print('Falha na compra')
 
 '''
-
 '''
 Aula 30 - Nested Loops
 02/08/2023
@@ -184,7 +170,6 @@ for numero in range(1,6):
   for numero1 in range(11):
     print(numero,numero1)
 '''
-
 '''
 AULA 31 - LOOPING COM STRINGS 
 03/08/2023
@@ -193,7 +178,6 @@ palavra = 'FANTASTICO'
 for space in palavra:
   print(f' {space}',end='')
 '''
-
 '''
 AULA 32 - Criando um retangulo 
 03/08/2023
@@ -207,7 +191,6 @@ for l in range(linhas):
     print(simbolos,end='')
   print()
 '''
-
 '''
 AULA 33 - While Loop
 03/08/2023
@@ -219,7 +202,6 @@ while valor > 20:
   print(f'No dia {dia} o produto vai ser vendido por R$ {valor}')
   valor-= 5
 '''
-
 '''
 Aula 34 - Operador ternário
 07/08/2023
@@ -237,8 +219,6 @@ idade = 13
 resultado = 'Voto Permitido' if idade >= 16 else 'Voto nao permitido'
 print(resultado)
 '''
-
-
 '''
 AULA 36 - Criando condições com While Loop 
 07/08/2023 
@@ -250,7 +230,6 @@ while valor > 20:
   print(f'O valor final do produto será de R$ {valor}')
   break
 '''
-
 '''
 AULA 39 - FUNCOES 
 07/08/2023
@@ -260,7 +239,6 @@ def boas_vindas():
 
 boas_vindas()
 '''
-
 '''
 AULA 40 - FUNCOES COM OPERACOES MATEMATICAS
 07/08/2023
@@ -274,7 +252,6 @@ def somar_dois_numeros():
 #Chamando a função
 somar_dois_numeros()
 '''
-
 '''
 def boas_vindas_Wesley():
   print('Ola Wesley')
@@ -289,7 +266,6 @@ boas_vindas_Wesley()
 boas_vindas_Ronaldo()
 boas_vindas_Pele()
 '''
-
 '''
 AULA 42 - Funçoes recebendo parametros 
 11/08/2023
@@ -303,7 +279,6 @@ def boas_vindas(esporte,nome='Pedro'):
 boas_vindas('Basquete')
 
 '''
-
 '''
 AULA 44 
 11/08/2023
@@ -330,7 +305,6 @@ x = soma(2,3,4,8,6,10)
 
 print(x)
 '''
-
 '''
 AULA 45 
 11/08/2023
@@ -357,7 +331,6 @@ def agencia(**carro):
 print(agencia(marca='Gol',cor='Azul',motor=1.0, placa='EUS1456'))
 print(agencia(marca='Renault',cor='Vermelho',motor=1.0, placa='BUA1456'))
 '''
-
 '''
 AULA 45 - Importando Modulos
 11/08/2023
@@ -369,8 +342,6 @@ print(math.factorial(40))
 fatorial = 4 * 3 * 2 * 1
 print(fatorial)
 '''
-
-
 '''
 22/08/2023
 LISTAS
@@ -386,8 +357,6 @@ cidades.sort()
 
 print(cidades)
 '''
-
-
 '''
 22/08/2023
 CONCATENANDO LISTAS
@@ -404,7 +373,6 @@ itens = [['item1','item2'],['item3','item4']]
 
 print(itens[1][1])
 '''
-
 '''
 29/08/2023
 AULA 52 - Loopings em listas
@@ -413,9 +381,35 @@ valores = [50,80,90,100,120]
 for x in valores:
   print(f'o valor final do produto é de R$ {x}')
 '''
-
-
 '''
 29/08/2023
 AULA 53 - Verificando itens de uma lista 
+
+color_client = input('Write your prefer color: ')
+colors = ['red','green','blue','yellow']
+
+if color_client.lower() in colors:
+  print('Yes')
+else:
+  print('No')
 '''
+'''
+AULA 56 - Quebrando lista por delimitador
+frutas_usuario = input('Digite o nome das frutas separada por virgula: ')
+frutas_lista = frutas_usuario.split(', ')
+print(frutas_lista)
+'''
+'''
+AULA 57 - Tuples
+'''
+
+cores_lista = ['amarelo', 'vermelho', 'azul', 'verde']
+cores_tuple = ('amarelo', 'vermelho', 'azul', 'verde')
+
+#print(type(cores_lista))
+#print(type(cores_tuple))
+#duas_listas = cores_tuple * 2 
+#print(duas_listas)
+
+
+

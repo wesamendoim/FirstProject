@@ -10,6 +10,8 @@ numpy = "^1.22.2"
 Flask = "^2.2.0"
 urllib3 = "1.26.15"
 poetry = "1.1.13"
+selenium = "4.15.2"
+Pandas3 = "0.0.1"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
