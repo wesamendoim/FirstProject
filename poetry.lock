@@ -1005,7 +1005,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-ena
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "c64ca9a0fdf341db15bb9f1714c9e3b43efdd1467a4e0ab7932d46c90e7683dc"
+content-hash = "492d0f7e07ceebbc78604eb399fe3bcfaae874b1b43ee22cba078c1895943c2d"
 
 [metadata.files]
 attrs = []
