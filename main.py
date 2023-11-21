@@ -465,6 +465,8 @@ print(s_1)
 import pandas as pd
 import selenium as sl
 from selenium.webdriver.common.by import By
+import requests as rq
+import cx_Oracle as cx
 
 
 def retorna_dados_excel():
@@ -472,7 +474,7 @@ def retorna_dados_excel():
   return dtframe
 
 
-def captura_dados_web(*args):
+def captura_dados_web():
   driverChrome = sl.webdriver.Chrome()
   driverChrome.get('https://www.google.com/')
 
@@ -487,4 +489,23 @@ def captura_dados_web(*args):
 strExcel = retorna_dados_excel()
 print(strExcel.sort_values(by='Idade'))
 
+
+def conecta_api():
+  rq.get('')
+  if rq.Response().status_code == 200:
+    return rq.Response().json()
+  else:
+    return False
+
+
+class Conecta():
+
+  def conecta_banco():
+    connstring = ""
+    conexao = cx.connect(connstring)
+    return conexao
+
+
 #captura_dados_web()
+
+Conecta.conecta_banco()
