@@ -462,3 +462,29 @@ s_1 = {10, 20, 30, 40, 50}
 s_1.discard(20)
 print(s_1)
 '''
+import pandas as pd
+import selenium as sl
+from selenium.webdriver.common.by import By
+
+
+def retorna_dados_excel():
+  dtframe = pd.read_excel('Arquivo_Teste_Python.xlsb')
+  return dtframe
+
+
+def captura_dados_web(*args):
+  driverChrome = sl.webdriver.Chrome()
+  driverChrome.get('https://www.google.com/')
+
+  if driverChrome.find_element(By.ID, "input").is_displayed() == True:
+    print('Elemento encontrado')
+  else:
+    print('Elemento nao encontrado')
+
+  driverChrome.quit()
+
+
+strExcel = retorna_dados_excel()
+print(strExcel.sort_values(by='Idade'))
+
+#captura_dados_web()
