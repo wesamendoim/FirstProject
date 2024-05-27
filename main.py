@@ -462,3 +462,26 @@ s_1 = {10, 20, 30, 40, 50}
 s_1.discard(20)
 print(s_1)
 '''
+
+'''
+AULA 62 - SETS COM STRINGS
+
+set1 = {'a', 'b', 'c' }
+set2 = {'a', 'd', 'e'}
+set3 = {'c', 'd', 'f'}
+
+set = set1.union(set2)
+
+set = set1.difference(set3)
+
+set = set1.intersection(set2)
+
+print(set)
+'''
+set1 = {'a', 'b', 'c' }
+set2 = {'a', 'd', 'e'}
+set3 = {'c', 'd', 'f'}
+
+set = set1.symmetric_difference(set3)
+
+print(set)
