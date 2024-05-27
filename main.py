@@ -478,10 +478,21 @@ set = set1.intersection(set2)
 
 print(set)
 '''
-set1 = {'a', 'b', 'c' }
-set2 = {'a', 'd', 'e'}
-set3 = {'c', 'd', 'f'}
 
-set = set1.symmetric_difference(set3)
+'''
+AULA 61 - INTRODUÇÃO A DICIONARIOS
+27/04/2024
 
-print(set)
+aluno = {'nome': 'Ana', 'idade': 16, 'nota_final': 'A', 'aprovação': True}
+
+print(aluno['nome'])
+'''
+
+#AULA 64 - ATUALIZANDO ITENS NO DICIONARIO  
+#27/04;2024
+aluno = {'nome': 'Ana', 'idade': 16, 'nota_final': 'A', 'aprovação': True}
+
+#aluno['nome'] = 'Jose'
+#aluno.update({'nome': 'Jose', 'nota_final': 'B'})
+
+print(aluno)
