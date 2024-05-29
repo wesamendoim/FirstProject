@@ -488,11 +488,39 @@ aluno = {'nome': 'Ana', 'idade': 16, 'nota_final': 'A', 'aprovação': True}
 print(aluno['nome'])
 '''
 
-#AULA 64 - ATUALIZANDO ITENS NO DICIONARIO  
+#AULA 62- ATUALIZANDO ITENS NO DICIONARIO  
 #27/04;2024
-aluno = {'nome': 'Ana', 'idade': 16, 'nota_final': 'A', 'aprovação': True}
+#aluno = {'nome': 'Ana', 'idade': 16, 'nota_final': 'A', 'aprovação': True}
 
 #aluno['nome'] = 'Jose'
 #aluno.update({'nome': 'Jose', 'nota_final': 'B'})
+#aluno.update({'endereço': 'Rua A'})
 
-print(aluno)
+#print(aluno.get('endereco','Nao existe'))
+
+#del aluno['idade']
+
+#print(aluno)
+
+
+#AULA 63 - LOOPINGS NO DICIONARIO
+#27/04/2024
+#aluno = {'nome': 'Ana', 'idade': 16, 'nota_final': 'A', 'aprovação': True}
+#for keys, values in aluno.items():
+  #print(keys, values)
+
+#AULA 64 - Visualizando Itens, Keys e Values  
+#27/04/2024
+aluno = {'nome': 'Ana', 
+         'idade': 16, 
+         'nota_final': 'A', 
+         'aprovação': True, 
+         'Materias': ['Fisica', 'Matematica', 'Ingles']
+        }
+
+#print(aluno.get('Materias'))
+#print(len(aluno))
+
+print(aluno.items())
+print(aluno.keys())
+print(aluno.values())
