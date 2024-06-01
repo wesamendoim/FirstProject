@@ -509,6 +509,7 @@ print(aluno['nome'])
 #for keys, values in aluno.items():
   #print(keys, values)
 
+'''
 #AULA 64 - Visualizando Itens, Keys e Values  
 #27/04/2024
 aluno = {'nome': 'Ana', 
@@ -524,3 +525,25 @@ aluno = {'nome': 'Ana',
 print(aluno.items())
 print(aluno.keys())
 print(aluno.values())
+'''
+
+'''
+#AULA 65 - Funçoes em Dicionarios
+#AULA 65 - LAMBDA 
+#def somar(x):
+  #return x + 10
+#print(somar(2))  
+
+somar10 = lambda x,y: x + y + 10
+
+print(somar10(2,4))
+'''
+
+'''
+#AULA 66 - FUNÇÃO LAMBDA DENTRO DE UMA FUNÇÃO
+def somar(x):
+  funcao2 = lambda x: x + 10
+  return funcao2(x) * 4
+
+print(somar(2))
+'''
