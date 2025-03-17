@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.gdb
     pkgs.glibcLocales
     pkgs.unixODBC
     pkgs.tk

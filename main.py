@@ -553,7 +553,7 @@ print(somar(2))
 #print(list(map(lambda x: x * 2, lista1)))
 
 #AULA 69 - filter
-
+'''
 #AULA 108 - LIST COMPREHENSION
 valores = []
 
@@ -562,3 +562,13 @@ for x in range(6):
 
 print(valores)
 valores = [x * 10 for x in range(6)]
+
+print(valores)
+'''
+
+#Generation Expressions
+from sys import getsizeof
+
+numeros = [x * 10 for x in range(10)]
+print(type(numeros))
+print(numeros)
