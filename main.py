@@ -1,3 +1,4 @@
+from sys import getsizeof
 '''
 Nome: Wesley Valadão
 Data: 26/07/2023
@@ -567,8 +568,13 @@ print(valores)
 '''
 
 #Generation Expressions
-from sys import getsizeof
+
 
 numeros = [x * 10 for x in range(10)]
+print(type(numeros))
+print(numeros)
+
+
+numeros = (x * 10 for x in range(10))
 print(type(numeros))
 print(numeros)
