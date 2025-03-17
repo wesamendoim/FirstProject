@@ -568,7 +568,7 @@ print(valores)
 '''
 
 #Generation Expressions
-
+'''
 numeros = [x * 10 for x in range(1000)]
 print(type(numeros))
 print(numeros)
@@ -580,3 +580,13 @@ numeros = (x * 10 for x in range(1000))
 print(type(numeros))
 print(list(numeros))
 print(getsizeof(numeros))
+'''
+
+#AULA 111 - TRATAMENTO DE ERROS
+try:
+  letras = ['a', 'b', 'c']
+  print(letras[3])
+except IndexError:
+  print('Index não existe')
+
+#AULA 112 - TRATAMENTO DE ERROS COM INPUT
