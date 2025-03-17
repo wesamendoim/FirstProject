@@ -462,7 +462,6 @@ s_1 = {10, 20, 30, 40, 50}
 s_1.discard(20)
 print(s_1)
 '''
-
 '''
 AULA 62 - SETS COM STRINGS
 
@@ -478,7 +477,6 @@ set = set1.intersection(set2)
 
 print(set)
 '''
-
 '''
 AULA 61 - INTRODUÇÃO A DICIONARIOS
 27/04/2024
@@ -488,7 +486,7 @@ aluno = {'nome': 'Ana', 'idade': 16, 'nota_final': 'A', 'aprovação': True}
 print(aluno['nome'])
 '''
 
-#AULA 62- ATUALIZANDO ITENS NO DICIONARIO  
+#AULA 62- ATUALIZANDO ITENS NO DICIONARIO
 #27/04;2024
 #aluno = {'nome': 'Ana', 'idade': 16, 'nota_final': 'A', 'aprovação': True}
 
@@ -502,13 +500,11 @@ print(aluno['nome'])
 
 #print(aluno)
 
-
 #AULA 63 - LOOPINGS NO DICIONARIO
 #27/04/2024
 #aluno = {'nome': 'Ana', 'idade': 16, 'nota_final': 'A', 'aprovação': True}
 #for keys, values in aluno.items():
-  #print(keys, values)
-
+#print(keys, values)
 '''
 #AULA 64 - Visualizando Itens, Keys e Values  
 #27/04/2024
@@ -526,7 +522,6 @@ print(aluno.items())
 print(aluno.keys())
 print(aluno.values())
 '''
-
 '''
 #AULA 65 - Funçoes em Dicionarios
 #AULA 65 - LAMBDA 
@@ -538,7 +533,6 @@ somar10 = lambda x,y: x + y + 10
 
 print(somar10(2,4))
 '''
-
 '''
 #AULA 66 - FUNÇÃO LAMBDA DENTRO DE UMA FUNÇÃO
 def somar(x):
@@ -548,13 +542,23 @@ def somar(x):
 print(somar(2))
 '''
 
-#AULA 67 Map Function
+#AULA 67 e 68 Map Function/Map com Lambda
+#lista1 = [1,2,3,4]
 
-lista1 = [1,2,3,4]
+#def multi(x):
+#return x * 2
 
-def multi(x):
-  return x * 2
+#lista2 =
 
-lista2 = map(multi, lista1)
+#print(list(map(lambda x: x * 2, lista1)))
 
-print(list(lista2))
+#AULA 69 - filter
+
+#AULA 108 - LIST COMPREHENSION
+valores = []
+
+for x in range(6):
+  valores.append(x * 10)
+
+print(valores)
+valores = [x * 10 for x in range(6)]
