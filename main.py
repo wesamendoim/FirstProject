@@ -582,11 +582,19 @@ print(list(numeros))
 print(getsizeof(numeros))
 '''
 
+'''
 #AULA 111 - TRATAMENTO DE ERROS
 try:
   letras = ['a', 'b', 'c']
   print(letras[3])
 except IndexError:
   print('Index não existe')
+'''
+
 
 #AULA 112 - TRATAMENTO DE ERROS COM INPUT
+try:
+  valor = int(input('Digite o valor do seu produto: '))
+  print(valor)
+except ValueError:
+  print('Favor digitar valores numericos')
