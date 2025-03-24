@@ -591,10 +591,25 @@ except IndexError:
   print('Index não existe')
 '''
 
-
+'''
 #AULA 112 - TRATAMENTO DE ERROS COM INPUT
 try:
   valor = int(input('Digite o valor do seu produto: '))
   print(valor)
 except ValueError:
   print('Favor digitar valores numericos')
+'''
+
+try:
+  valor = int(input('Digite o valor do seu produto: '))
+  print(valor)
+except ValueError:
+  print('Favor digitar valores numericos')
+finally:
+  print('codigo ok')
+# else:
+#   print('Usuario digitou um valor correto')
+
+# print('mais codifo abaixo')
+
+#OOP - 
