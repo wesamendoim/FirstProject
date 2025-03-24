@@ -612,15 +612,25 @@ except ValueError:
 
 #OOP - Aula 114
 
-#PRIMEIRA CLASSE - OOP 
+#PRIMEIRA CLASSE COM DADOS - OOP
 
+# class Funcionarios:
+
+
+#criando a classe
 class Funcionarios:
-  nome = 'Helena'
-  sobrenome = 'Valadão'
+  
+  def __init__(self, nome, sobrenome, data_nascimento):
+    self.nome = nome
+    self.sobrenome = sobrenome
+    self.data_nascimento = data_nascimento
 
-usuario1 = Funcionarios()
-
-print(usuario1.nome)
-print(usuario1.sobrenome)
+  def nome_completo(self):
+    return self.nome + ' ' + self.sobrenome
 
 
+#criando o objeto
+usuario1 = Funcionarios('Helena', 'Valadao', '12/01/2009')
+usuario2 = Funcionarios('Wesley', 'Valadao', '15/01/2009')
+
+print(Funcionarios.nome_completo(usuario1))
