@@ -581,7 +581,6 @@ print(type(numeros))
 print(list(numeros))
 print(getsizeof(numeros))
 '''
-
 '''
 #AULA 111 - TRATAMENTO DE ERROS
 try:
@@ -590,7 +589,6 @@ try:
 except IndexError:
   print('Index não existe')
 '''
-
 '''
 #AULA 112 - TRATAMENTO DE ERROS COM INPUT
 try:
@@ -600,16 +598,29 @@ except ValueError:
   print('Favor digitar valores numericos')
 '''
 
-try:
-  valor = int(input('Digite o valor do seu produto: '))
-  print(valor)
-except ValueError:
-  print('Favor digitar valores numericos')
-finally:
-  print('codigo ok')
+# try:
+#   valor = int(input('Digite o valor do seu produto: '))
+#   print(valor)
+# except ValueError:
+#   print('Favor digitar valores numericos')
+# finally:
+#   print('codigo ok')
 # else:
 #   print('Usuario digitou um valor correto')
 
 # print('mais codifo abaixo')
 
-#OOP - 
+#OOP - Aula 114
+
+#PRIMEIRA CLASSE - OOP 
+
+class Funcionarios:
+  nome = 'Helena'
+  sobrenome = 'Valadão'
+
+usuario1 = Funcionarios()
+
+print(usuario1.nome)
+print(usuario1.sobrenome)
+
+
