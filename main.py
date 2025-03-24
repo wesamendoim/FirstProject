@@ -1,4 +1,5 @@
 from sys import getsizeof
+from datetime import datetime
 '''
 Nome: Wesley Valadão
 Data: 26/07/2023
@@ -619,18 +620,24 @@ except ValueError:
 
 #criando a classe
 class Funcionarios:
-  
-  def __init__(self, nome, sobrenome, data_nascimento):
+
+  def __init__(self, nome, sobrenome, ano_nascimento):
     self.nome = nome
     self.sobrenome = sobrenome
-    self.data_nascimento = data_nascimento
+    self.ano_nascimento = ano_nascimento
 
   def nome_completo(self):
     return self.nome + ' ' + self.sobrenome
 
+  def idade_funcionario(self):
+    ano_atual = datetime.now().year
+    self.ano_nascimento = int(ano_atual - self.ano_nascimento)
+    return self.ano_nascimento
+
 
 #criando o objeto
-usuario1 = Funcionarios('Helena', 'Valadao', '12/01/2009')
-usuario2 = Funcionarios('Wesley', 'Valadao', '15/01/2009')
+usuario1 = Funcionarios('Helena', 'Valadao', 1976)
+usuario2 = Funcionarios('Wesley', 'Valadao', 1993)
 
-print(Funcionarios.nome_completo(usuario1))
+print(Funcionarios.idade_funcionario(usuario1))
+print(Funcionarios.idade_funcionario(usuario2))
