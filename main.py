@@ -614,30 +614,50 @@ except ValueError:
 #OOP - Aula 114
 
 #PRIMEIRA CLASSE COM DADOS - OOP
-
+# class Funcionarios:
+#criando a classe
 # class Funcionarios:
 
+#   def __init__(self, nome, sobrenome, ano_nascimento):
+#     self.nome = nome
+#     self.sobrenome = sobrenome
+#     self.ano_nascimento = ano_nascimento
 
-#criando a classe
-class Funcionarios:
+#   def nome_completo(self):
+#     return self.nome + ' ' + self.sobrenome
 
-  def __init__(self, nome, sobrenome, ano_nascimento):
-    self.nome = nome
-    self.sobrenome = sobrenome
-    self.ano_nascimento = ano_nascimento
-
-  def nome_completo(self):
-    return self.nome + ' ' + self.sobrenome
-
-  def idade_funcionario(self):
-    ano_atual = datetime.now().year
-    self.ano_nascimento = int(ano_atual - self.ano_nascimento)
-    return self.ano_nascimento
+#   def idade_funcionario(self):
+#     ano_atual = datetime.now().year
+#     self.ano_nascimento = int(ano_atual - self.ano_nascimento)
+#     return self.ano_nascimento
 
 
-#criando o objeto
-usuario1 = Funcionarios('Helena', 'Valadao', 1976)
-usuario2 = Funcionarios('Wesley', 'Valadao', 1993)
+# #criando o objeto
+# usuario1 = Funcionarios('Helena', 'Valadao', 1976)
+# usuario2 = Funcionarios('Wesley', 'Valadao', 1993)
 
-print(Funcionarios.idade_funcionario(usuario1))
-print(Funcionarios.idade_funcionario(usuario2))
+# print(Funcionarios.idade_funcionario(usuario1))
+# print(Funcionarios.idade_funcionario(usuario2))
+
+'''
+Criar um programa que dependendo da temperatura da carne retorne as temperaturas de cozimento
+'''
+
+def __init__():
+    temperatura = int(input('Digite a temperatura da carne: '))
+    resultado = temperatura_carne(temperatura)
+    print(resultado)
+
+def temperatura_carne(temperatura):
+    if temperatura <= 48:
+        return "Carne crua"
+    elif 48 == temperatura <= 53:
+        return "Carne mal passada"
+    elif temperatura == 54 or temperatura <= 64:
+        return "Carne mal passada"
+    elif 65 == temperatura <= 70:
+        return "Carne ao ponto"
+    elif temperatura >= 71:
+        return "Carne bem passada"
+    else:
+        return "Carne queimada"
