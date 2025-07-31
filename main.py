@@ -641,23 +641,33 @@ except ValueError:
 
 '''
 Criar um programa que dependendo da temperatura da carne retorne as temperaturas de cozimento
+
+#DESAFIO PONTO DA CARNE 
+temp_cel = int(input('Qual a temperatura da carne? '))  
+if temp_cel < 48:
+  print('Cozinhar por mais alguns minutos') 
+elif temp_cel in range(48, 53):
+  print('Selada') 
+elif temp_cel in range(54, 59):
+  print('Ao ponto para mal passada')
+elif temp_cel in range(60, 64):
+  print('Ao ponto')
+elif temp_cel in range(65, 70):
+  print('Ao ponto para bem passada')
+elif temp_cel >=71:
+  print('Bem passada')
+
 '''
 
-def __init__():
-    temperatura = int(input('Digite a temperatura da carne: '))
-    resultado = temperatura_carne(temperatura)
-    print(resultado)
+'''
+Criar um programa que calcule a quantidade de tinta necessaria para pintar uma parede.'''
+rendimento = int(input('Qual o rendimento da tinta? '))
+altura = int(input('Qual a altura da parede? '))
+largura = int(input('Qual a largura da parede? '))
 
-def temperatura_carne(temperatura):
-    if temperatura <= 48:
-        return "Carne crua"
-    elif 48 == temperatura <= 53:
-        return "Carne mal passada"
-    elif temperatura == 54 or temperatura <= 64:
-        return "Carne mal passada"
-    elif 65 == temperatura <= 70:
-        return "Carne ao ponto"
-    elif temperatura >= 71:
-        return "Carne bem passada"
-    else:
-        return "Carne queimada"
+def Calcular_area_pintura():
+  area = largura * altura
+  total = area / rendimento
+  print(f'Voce precisara de {total} latas de tinta')
+
+
