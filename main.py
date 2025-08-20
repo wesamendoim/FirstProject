@@ -660,7 +660,7 @@ elif temp_cel >=71:
 '''
 
 '''
-Criar um programa que calcule a quantidade de tinta necessaria para pintar uma parede.'''
+Criar um programa que calcule a quantidade de tinta necessaria para pintar uma parede
 rendimento = int(input('Qual o rendimento da tinta? '))
 altura = int(input('Qual a altura da parede? '))
 largura = int(input('Qual a largura da parede? '))
@@ -669,5 +669,25 @@ def Calcular_area_pintura():
   area = largura * altura
   total = area / rendimento
   print(f'Voce precisara de {total} latas de tinta')
+'''
+
+'''
+CALCULADORA DO IMC 
+'''
+peso = float(input('Qual o seu peso? '))
+altura = float(input('Qual a sua altura? '))
+formula = round(peso / (altura/100)**2,2)
+
+if formula < 18.5 :
+  print('Magreza')
+elif formula in range(18.5, 24.9):
+  print('Normal')
+elif formula in range(25, 29.9):
+  print('Sobrepeso')
+elif formula in range(30, 39.9):
+  print('Obesidade')
+else:
+  print('Obesidade')
+
 
 
