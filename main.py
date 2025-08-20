@@ -1,5 +1,4 @@
-from sys import getsizeof
-from datetime import datetime
+
 '''
 Nome: Wesley Valadão
 Data: 26/07/2023
@@ -673,7 +672,6 @@ def Calcular_area_pintura():
 
 '''
 CALCULADORA DO IMC 
-'''
 peso = float(input('Qual o seu peso? '))
 altura = float(input('Qual a sua altura? '))
 formula = round(peso / (altura/100)**2,2)
@@ -688,6 +686,11 @@ elif formula in range(30, 39.9):
   print('Obesidade')
 else:
   print('Obesidade')
+
+'''
+
+#Desafio 1
+#print('Ola mundo Python')
 
 
 
