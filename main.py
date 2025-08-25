@@ -711,6 +711,14 @@ print(type(num2))
 print(num1 / num2)
 '''
 
+#Desafio 4 
+#Input 
+'''
+nome = input('Qual é o seu nome?')
+idade = input('Qual é a sua idade?')
+print(f'Ola {nome} é um prazer te conhecer!, e tenho {idade} anos de idade')
+'''
+
 
 
 
