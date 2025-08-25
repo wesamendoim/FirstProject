@@ -692,5 +692,12 @@ else:
 #Desafio 1
 #print('Ola mundo Python')
 
+#Desafio 2 
+#Variaveis
+#nome = "Wesley"
+#idade = 31 
+#print(f'Ola meu nome é {nome} e tenho {idade} anos de idade')
+
+
 
 
